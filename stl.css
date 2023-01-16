@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: chocolate;
+    padding: 4px;
+    position: sticky;
+    top:0px;
+    z-index:100;
+}
+
+nav{
+    display: flex;
+}
+
+section{
+    display: flex;
+    height: max-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.prodname{
+    width: 60%;
+    padding: 4px;
+}
+.qtt{
+    padding: 4px;
+}
+article{
+    margin: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 75vw;
+    border: 1px solid ;
+    box-shadow: 3px 3px  gray;
+    overflow: scroll;
+    padding: 20px;
+}
+aside{
+    margin: 4px;
+    width: 25vw;
+    border: 1px solid green;
+}
+.plusimg{
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.delimg{
+    width: 25px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.artimg{
+    width: 200px;
+    
+}
+.artimgmin{
+    width: 30px;
+}
+.article{
+    position: relative;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 10px;
+    height: 240px;
+    
+    
+}
+.info{
+    position:absolute;
+    width: 100%;
+   text-align: center;
+    bottom: 10px;
+}
+.title{
+    background-color: chocolate;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+button{
+    margin: 4px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#details{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    z-index: 200;
+    border: 1px solid black;
+    background-color: rgb(226, 212, 194);
+    top: 10vw;
+    right: 70vh;
+}
+.chartitem{
+    position: relative;
+    border: 1px solid green;
+    /*border-radius: 10px;*/
+    padding: 10PX;
+    margin: 10px;
+    display: flex;
+    margin: 2px;
+}
+.delimg:hover{
+    width: 35px
+}
+.plusimg:hover{
+    width: 45px
+}
+.chartitem:hover{
+    background-color: greenyellow;
+}
+#search{
+    height: 40px;
+    margin-bottom: 10px;
+}
+input{
+    width: 96%;
+    height: 80%;
+    margin: 2px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: chocolate;
+    width: 100vw;
+    padding: 10px;
+}
